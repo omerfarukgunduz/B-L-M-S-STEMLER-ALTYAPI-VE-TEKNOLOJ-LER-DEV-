@@ -1,0 +1,9 @@
+[Unit]
+Description=Bilisim Sistemleri Altyapı ve Teknolojileri Proje B211200013
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/scriptkodlarim.sh
+
+[Install]
+WantedBy=multi-user.target
